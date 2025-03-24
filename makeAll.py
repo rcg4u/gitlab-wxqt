@@ -132,7 +132,7 @@ if __name__ == "__main__":
     #
     # configure with qmake
     #
-    qmakeCommand: str = "qmake"
+    qmakeCommand: str = "qmake6"
     if args.qt6:
         qmakeCommand = "qmake6"
     osfile: str = "/etc/os-release"
