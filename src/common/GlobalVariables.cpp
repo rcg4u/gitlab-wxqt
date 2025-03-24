@@ -6,11 +6,11 @@
 
 #include "common/GlobalVariables.h"
 
-const string GlobalVariables::appName{"wxqt"};
+const string GlobalVariables::appName{"NerdStormWatch"};
 const string GlobalVariables::aboutString{
 appName + " is an efficient and configurable method to access weather content from the NWS, NSSL WRF, and blitzortung.org."
 " Software is provided \"as is\". Use at your own risk. Use for educational purposes and non-commercial purposes only."
-" Do not use for operational purposes.  Copyright 2020, 2021, 2022 joshua.tee@gmail.com ."
+" Do not use for operational purposes.  Copyright 2020, 2021, 2022 gumpynerd@gmail.com ."
 " Privacy Policy: this app does not collect any data from the user or the user’s device."
 " Please report bugs or suggestions via email. "
  + appName + " is licensed under the GNU GPLv3 license. For more information on the license please go here:"
@@ -72,7 +72,7 @@ const string GlobalVariables::nexradShortcuts{R"nexradShort(
 
     )nexradShort"};
 
-const string GlobalVariables::appCreatorEmail{"joshua.tee@gmail.com"};
+const string GlobalVariables::appCreatorEmail{"gumpynerd@gmail.com"};
 const string GlobalVariables::resDir{":/res/"};
 const string GlobalVariables::imageDir{":/images/"};
 const string GlobalVariables::newline{"\n"};
